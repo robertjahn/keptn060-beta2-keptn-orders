@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: "2019-12-07T17:54:11Z"
+  name: frontend-canary
+  resourceVersion: "296499"
+  selfLink: /api/v1/namespaces/keptnorders-production/services/frontend
+  uid: 9335c3de-191a-11ea-8e36-0ae57cc1eab6
+spec:
+  ports:
+  - name: http
+    port: 80
+    protocol: TCP
+    targetPort: 8080
+  selector:
+    app: frontend
+  sessionAffinity: None
+  type: ClusterIP
+status:
+  loadBalancer: {}
