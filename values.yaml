@@ -12,3 +12,5 @@ frontend-generated:
   enabled: false
 order:
   enabled: false
+order-generated:
+  enabled: false
