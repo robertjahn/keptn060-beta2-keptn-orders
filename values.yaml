@@ -1,3 +1,5 @@
+catalog:
+  enabled: false
 customer:
   enabled: false
 customer-generated:
