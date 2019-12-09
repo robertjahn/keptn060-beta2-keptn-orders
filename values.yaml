@@ -1,5 +1,7 @@
 customer:
   enabled: false
+customer-generated:
+  enabled: false
 frontend:
   enabled: false
 frontend-generated:
